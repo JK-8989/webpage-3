@@ -1,0 +1,52 @@
+body {
+  background: #222;
+  color: #ddd;
+}
+input:focus {
+  outline: none;
+}
+h1 {
+  text-align: center;
+  margin: 5rem 0 2rem 0;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.parent {
+  width: 90%;
+  margin: 0 auto;
+}
+form {
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  justify-items: center;
+}
+#input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin: 2rem 0 1rem 0;
+  max-width: 40rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+#submit {
+  background: orange;
+  border: none;
+  padding: 0.8rem 2.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+img {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s;
+  background: rgb(93, 93, 93);
+}
+img:hover {
+  transform: scale(1.1);
+  position: relative;
+  z-index: 100;
+}

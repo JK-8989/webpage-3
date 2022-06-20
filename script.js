@@ -1,12 +1,5 @@
-const grid = document.querySelector('.grid');
-const input = document.getElementById('input');
-const submitBtn = document.getElementById('submit');
+const API_KEY = '563492ad6f91700001000001d3ca7f29ab864204b469f627296ea28a';
 
-
-let macyInstance = Macy({
-  container: grid
-});
-
-const key = 'kZgLlrhYYwDB80VmUxDdydI7lGb_5PSazfbo31hrUKI';
-
-const API_URL = 'https://api.unsplash.com'
+class PhotoGrallery {
+  constructor
+}
